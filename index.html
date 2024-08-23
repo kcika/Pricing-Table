@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid w-100 flex place-items-center justify-center">
+        <div class="w-8/12 mx-auto">
+            <p class="text-3xl font-semibold text-center">Pricing & Plans</p>
+            <p class="text-lg my-6 text-gray-600 text-center">With lots of unique blocks, you can easily build a page
+                without<br>
+                coding.Build your next landing page.</p>
+            <div class="flex place-items-center justify-center my-7">
+                <p>Monthly</p>
+                <label class="switch mx-4">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p>Yearly</p>
+                <button class="px-3 py-2 text-blue-800 font-bold bg-slate-300 rounded-full mx-4">Save 25%</button>
+            </div>
+            <div class="grid grid-cols-3">
+                <div class="w-96 p-10 bg-white rounded-xl">
+                    <p class="text-blue-800 font-bold mb-6">STARTER</p>
+                    <p><span class="text-2xl font-bold">$</span>
+                        <span class="text-6xl font-bold" id="price">19</span> /
+                        <span class="text-2xl font-medium" id="month">month</span>
+                    </p>
+                    <p class="text-gray-500 text-xl mt-4 mb-5">billed <span id="month">month</span>ly</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> Commercial
+                        License</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 100+ HTML UI Elements
+                    </p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 01 Domain Support
+                    </p>
+                    <p class="text-lg text-gray-500 my-5 font-medium"><i
+                            class="fa-solid fa-xmark text-gray-500 pe-2"></i> 6 Month
+                        Premium
+                        Support</p>
+                    <p class="text-lg text-gray-500 my-5 font-medium"><i
+                            class="fa-solid fa-xmark text-gray-500 pe-2"></i> Lifetime
+                        Updates</p>
+                    <button class="btn1 px-5 py-4 text-lg font-bold rounded-md">Start Free
+                        Trial<i class="fa-solid fa-arrow-right ms-8"></i></button>
+                    <p class="text-gray-500 my-4">No Credit Card Required</p>
+                </div>
+                <div class="w-96 p-10 bg-white rounded-xl">
+                    <p class="text-blue-800 font-bold mb-6">STANDARD</p>
+                    <p><span class="text-2xl font-bold">$</span>
+                        <span class="text-6xl font-bold" id="price">49</span> /
+                        <span class="text-2xl font-medium" id="month">month</span>
+                    </p>
+                    <p class="text-gray-500 text-xl mt-4 mb-5">billed <span id="month">month</span>ly</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> Commercial
+                        License</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 100+ HTML UI Elements
+                    </p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> Unlimited Domain Support
+                    </p>
+                    <p class="text-lg text-gray-800 my-5 font-medium"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 6 Month
+                        Premium
+                        Support</p>
+                    <p class="text-lg text-gray-500 my-5 font-medium"><i
+                            class="fa-solid fa-xmark text-gray-500 pe-2"></i> Lifetime
+                        Updates</p>
+                    <button class="btn2 px-5 py-4 text-lg font-bold rounded-md">Start Free
+                        Trial<i class="fa-solid fa-arrow-right ms-8"></i></button>
+                    <p class="text-gray-500 my-4">No Credit Card Required</p>
+                </div>
+                <div class="w-96 p-10 bg-white rounded-xl">
+                    <p class="text-blue-800 font-bold mb-6">PREMIUM</p>
+                    <p>
+                        <span class="text-2xl font-bold">$</span>
+                        <span class="text-6xl font-bold" id="price">99</span> /
+                        <span class="text-2xl font-medium" id="month">month</span>
+                    </p>
+                    <p class="text-gray-500 text-xl mt-4 mb-5">billed <span id="month">month</span>ly</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> Commercial
+                        License</p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 100+ HTML UI Elements
+                    </p>
+                    <p class="text-lg my-5 font-medium text-gray-800"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> 01 Domain Support
+                    </p>
+                    <p class="text-lg text-gray-500 my-5 font-medium"><i
+                            class="fa-solid fa-xmark text-gray-500 pe-2"></i> 6 Month
+                        Premium
+                        Support</p>
+                    <p class="text-lg text-gray-800 my-5 font-medium"><i
+                            class="fa-solid fa-check text-green-500 pe-2"></i> Lifetime
+                        Updates</p>
+                    <button class="btn1 px-5 py-4 text-lg font-bold rounded-md">Start Free
+                        Trial<i class="fa-solid fa-arrow-right ms-8"></i></button>
+                    <p class="text-gray-500 my-4">No Credit Card Required</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
