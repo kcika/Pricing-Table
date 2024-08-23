@@ -13,24 +13,26 @@
 </head>
 
 <body>
-    <div class="container-fluid w-100 flex place-items-center justify-center">
-        <div class="w-8/12 mx-auto">
+    <div class="container-fluid w-100 sm:h-100 2xl:h-screen flex place-items-center justify-center p-5">
+        <div class="lg:w-8/12 mx-auto xs:w-full mx-3">
             <p class="text-3xl font-semibold text-center">Pricing & Plans</p>
             <p class="text-lg my-6 text-gray-600 text-center">With lots of unique blocks, you can easily build a page
                 without<br>
                 coding.Build your next landing page.</p>
             <div class="flex place-items-center justify-center my-7">
-                <p>Monthly</p>
-                <label class="switch mx-4">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
-                <p>Yearly</p>
-                <button class="px-3 py-2 text-blue-800 font-bold bg-slate-300 rounded-full mx-4">Save 25%</button>
+                <div class="flex place-items-center justify-center">
+                    <p>Monthly</p>
+                    <label class="switch mx-4">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Yearly</p>
+                </div>
+                <button class="px-3 py-2 text-blue-800 font-bold bg-slate-300 rounded-full m-4">Save 25%</button>
             </div>
             <!-- pricing cards -->
-            <div class="grid grid-cols-3">
-                <div class="w-96 p-10 bg-white rounded-xl">
+            <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-1 mx-2 justify-center">
+                <div class="w-96 mx-auto p-10 bg-white rounded-xl mx-1">
                     <p class="text-blue-800 font-bold mb-6">STARTER</p>
                     <p><span class="text-2xl font-bold">$</span>
                         <span class="text-6xl font-bold" id="price">19</span> /
@@ -57,7 +59,7 @@
                         Trial<i class="fa-solid fa-arrow-right ms-8"></i></button>
                     <p class="text-gray-500 my-4">No Credit Card Required</p>
                 </div>
-                <div class="w-96 p-10 bg-white rounded-xl">
+                <div class="w-96 mx-auto p-10 bg-white rounded-xl mx-1">
                     <p class="text-blue-800 font-bold mb-6">STANDARD</p>
                     <p><span class="text-2xl font-bold">$</span>
                         <span class="text-6xl font-bold" id="price">49</span> /
@@ -84,7 +86,7 @@
                         Trial<i class="fa-solid fa-arrow-right ms-8"></i></button>
                     <p class="text-gray-500 my-4">No Credit Card Required</p>
                 </div>
-                <div class="w-96 p-10 bg-white rounded-xl">
+                <div class="w-96 mx-auto p-10 bg-white rounded-xl mx-1">
                     <p class="text-blue-800 font-bold mb-6">PREMIUM</p>
                     <p>
                         <span class="text-2xl font-bold">$</span>
